@@ -32,10 +32,8 @@ js-basic-projects/ │
 - CSS3
 - JavaScript (Vanilla JS)
 
-- ## 🌐 Live Demo
-[Click here to view the project](java-script-basic-projects.vercel.app
-)
+- ## 🌐 Live Demoo
+- java-script-basic-projects.vercel.app
 
-- ## 🌐 Live Demo
-[Click here to view the project](java-script-basic-projects.vercel.app
-)
+
+
