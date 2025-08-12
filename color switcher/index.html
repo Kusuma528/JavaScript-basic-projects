@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Switcher</title>
+    <style>
+        h1,h2{
+            text-align: center;
+        }
+        .container{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #pink{
+            background-color: pink;
+        }
+        #yellow{
+            background-color: yellow;
+        }#aqua{
+            background-color: aqua;
+        }
+        #purple{
+            background-color: purple;
+        }
+        #green{
+            background-color: green;
+        }
+
+        .button{
+            margin-top: 50px;
+            align-items: center;
+            padding:20px;
+            border:1px solid black;
+            height: 40px;
+            width:40px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Color Scheme Switcher</h1>
+    <div class="container">
+    <div class="button" id="blue"></div>
+    <div class="button" id="yellow"></div>
+    <div class="button" id="pink"></div>
+    <div class="button" id="aqua"></div>
+    <div class="button" id="purple"></div>
+    <div class="button" id="green"></div>
+    </div>
+<h2> TRY CLICKING ON ONE OF THE ABOVE COLORS</h2>
+   
+ </div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
